@@ -22,10 +22,10 @@ const Hero = () => (
       </div>
       <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className="relative mt-[-12px] w-full md:mt-[20px]">
         <div className="hero-gradient absolute top-[-30px] z-[0] h-[300px] w-full rounded-tl-[140px]" />
-        <img src="/cover.png" alt="" className="relative z-10 h-[350px] w-full rounded-tl-[140px] object-cover sm:h-[500px]" />
+        <img src="/cover.webp" alt="" className="relative z-10 h-[350px] w-full rounded-tl-[140px] object-cover sm:h-[500px]" />
         <a href="#explore">
           <div className="relative z-10 mt-[-50px] flex w-full justify-end pr-[40px] sm:mt-[-70px]">
-            <img src="/stamp.png" alt="" className="h-[100px] w-[100px] object-contain sm:h-[155px] sm:w-[155px]" />
+            <img src="/stamp.webp" alt="" className="h-[100px] w-[100px] object-contain sm:h-[155px] sm:w-[155px]" />
           </div>
         </a>
       </motion.div>
